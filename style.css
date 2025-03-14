@@ -29,6 +29,48 @@ nav {
         height: auto;
         display: block;
 }
+
+@media (min-width: 1200px) {
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logoImg {
+        max-width: 40%;
+        height: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .logoImg {
+        max-width: 90%;
+        height: auto;
+        display: block;
+    }
+
+}
+
+@media (max-width: 395px) {
+    .logo {
+        display: none;
+    }
+}
+
+
+
 nav ul {
     list-style: none;
     display: flex;
