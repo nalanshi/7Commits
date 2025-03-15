@@ -93,7 +93,6 @@ nav a:hover {
 
 .intro-content {
     display: grid;
-    grid-template-columns: 1fr 2fr;
     gap: 2rem;
     align-items: center;
 }
