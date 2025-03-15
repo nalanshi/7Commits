@@ -24,6 +24,7 @@ nav {
     font-weight: bold;
     max-width: 80%;
 }
+
 .logoImg {
         max-width: 20%;
         height: auto;
@@ -68,8 +69,6 @@ nav {
         display: none;
     }
 }
-
-
 
 nav ul {
     list-style: none;
