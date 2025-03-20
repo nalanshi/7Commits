@@ -60,7 +60,9 @@ nav {
         height: auto;
         display: block;
     }
-
+    .index {
+        display: none;
+    }
 }
 
 @media (max-width: 290px) {
