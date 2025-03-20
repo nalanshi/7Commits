@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7Commits</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.addEventListener('scroll', function() {
+            const btn = document.getElementById('backToTop');
+            if (window.scrollY > 300) {
+                btn.style.display = 'block';
+            } else {
+                btn.style.display = 'none';
+            }
+        });
+    </script>
 </head>
 <body>
     <nav>
@@ -170,6 +184,9 @@
     </section>
 
 
+
+
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">↑ Torna su</button>
 
     <footer>
         <div class="footer-content">

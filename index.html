@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7Commits</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.addEventListener('scroll', function() {
+            const btn = document.getElementById('backToTop');
+            if (window.scrollY > 300) {
+                // Se abbiamo scrollato più di 300px, mostra il bottone
+                btn.style.display = 'block';
+            } else {
+                // Altrimenti, nascondilo
+                btn.style.display = 'none';
+            }
+        });
+    </script>
 </head>
 <body>
     <nav>
@@ -89,6 +105,8 @@
             <li>Giada Rossi <span class="matricola">2045353</span></li>
         </ul>
     </section>
+
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">↑ Torna su</button>
 
     <footer>
         <div class="footer-content">
