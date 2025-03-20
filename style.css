@@ -233,3 +233,54 @@ h2 {
 .contact-form button:hover {
     background: #0056b3;
 } 
+
+.glossary-section {
+    max-width: 800px;
+    margin: 80px;
+    padding: 20px;
+}
+
+/* Indice alfabetico */
+.glossary-index {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.glossary-index p {
+    font-weight: bold;
+}
+
+.letters a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+    margin: 0 5px;
+}
+
+.letters a:hover {
+    text-decoration: underline;
+}
+
+/* Sezioni per le lettere */
+.glossary-group {
+    margin-bottom: 30px;
+}
+
+.glossary-group h3 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Stile per le voci del glossario */
+.glossary-item {
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.glossary-item h4 {
+    margin-bottom: 5px;
+}
